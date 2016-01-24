@@ -208,4 +208,10 @@
 
     <!-- Whether to set voicemail address editable-->
     <bool name="config_regional_voicemail_address_editable">false</bool>
+
+    <!-- Default value for setting vibrate after call connected -->
+    <integer name="config_default_vibrate_after_connected">1</integer>
+
+    <!-- To  show VMNotification always until user reads it-->
+    <bool name="config_show_vm_notification_always" translatable="false">false</bool>
 </resources>
